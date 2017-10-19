@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid >
-        <Grid HorizontalAlignment="Left" Width="125" Margin="0,10" Name="GridMenu">
+        <Grid HorizontalAlignment="Left" Width="125" Margin="0,0,0,20" Name="GridMenu">
         </Grid>
-        <Grid Margin="130,45,10,0" Background="#FFD8D8D8" Height="264" VerticalAlignment="Top" Name="Grid1">
+        <Grid Margin="130,45,10,0" Background="#FFD8D8D8" Height="264" VerticalAlignment="Top" Name="Gridtri">
         </Grid>
     </Grid>
 </Window>

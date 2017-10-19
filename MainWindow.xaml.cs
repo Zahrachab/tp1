@@ -23,8 +23,8 @@ namespace TPigl
         public MainWindow()
         {
             InitializeComponent();
-
-
         }
+
+       
     }
 }
