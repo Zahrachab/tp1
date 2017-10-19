@@ -25,6 +25,25 @@ namespace TPigl
             InitializeComponent();
         }
 
-       
+        private void tri_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void somme_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void inverse_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void m_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void fonc_Click(object sender, RoutedEventArgs e)
+        {
+
+
+        }
     }
-}

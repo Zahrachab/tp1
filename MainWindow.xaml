@@ -8,8 +8,24 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid >
         <Grid HorizontalAlignment="Left" Width="125" Margin="0,0,0,20" Name="GridMenu">
+            <Button Margin="0,45,0,214" Name="tri" Click="tri_click" >
+                <Label>Tri d'un vecteur</Label>
+            </Button>
+            <Button Margin="0,90,0,169" Name="Somme" Click="somme_click">
+                <Label>Sommer 2 vecteurs</Label>
+            </Button>
+            <Button Margin="0,135,0,124" Name="Inverse" Click="inverse_click">
+                <Label Content="Inverser les éléments d'un vecteur"/>
+            </Button>
+            <Button Margin="0,180,0,79" Name="Min_Max" Click="m_click">
+                <Label Content="max et min d'un vecteur"/>
+            </Button>
+            <Button Margin="0,225,0,34" Name="fonc" Click="fonc_click">
+                <Label Content=" appliquer x % 3"/>
+            </Button>
         </Grid>
         <Grid Margin="130,45,10,0" Background="#FFD8D8D8" Height="264" VerticalAlignment="Top" Name="Gridtri">
+        
         </Grid>
     </Grid>
 </Window>
