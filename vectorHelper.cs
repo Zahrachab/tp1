@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TPigl
 {
+    /// <summary>
+    /// La classe vectorHelper qui permet 5 opérations
+    /// </summary>
     class vectorHelper
     {
         // les méthodes sont à modifier  
@@ -54,5 +57,7 @@ namespace TPigl
                 tab[i] = tab[i] % 2;
             }
         }
+
+        
     }
 }
