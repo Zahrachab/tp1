@@ -1,1 +1,14 @@
 C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\bin\Debug\TPigl.exe.config
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\bin\Debug\TPigl.exe
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\bin\Debug\TPigl.pdb
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.csprojResolveAssemblyReference.cache
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\MainWindow.g.cs
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\App.g.cs
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl_MarkupCompile.cache
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl_MarkupCompile.lref
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\MainWindow.baml
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.g.resources
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.Properties.Resources.resources
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.csproj.GenerateResource.Cache
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.exe
+C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.pdb
