@@ -12,3 +12,4 @@ C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.Properties.
 C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.csproj.GenerateResource.Cache
 C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.exe
 C:\Users\dellport\Documents\TpGithub\TP1\TPigl\TPigl\obj\Debug\TPigl.pdb
+D:\git\tp\bin\Debug\TPigl.exe.config
