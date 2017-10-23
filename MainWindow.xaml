@@ -5,23 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPigl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="347.518" Width="563.475">
     <Grid Name="grid">
-        <Grid Margin="135,0,10,0" Name="grid1">
-            <TextBlock Margin="12,49,210,245" Name="txt1" FontSize="12">ENTREZ la taille du vecteur</TextBlock>
-            <TextBox Margin="167,45,175,245" Name="taille" FontSize="12" TextChanged="taille_TextChanged"></TextBox>
-            <Button Margin="230,37,0,241" Name="ok" HorizontalAlignment="Left" Width="45" Content="valider" Click="ok_Click" Background="#FF8DE4D8"></Button>
-            <Button Margin="297,128,10,154" Name="valider" Click="valider_Click" Background="#FF4DD147" >
+        <Grid Margin="135,0,10,0" Name="grid1" Height="317" VerticalAlignment="Bottom">
+            <TextBlock Margin="0,26,222,268" Name="txt1" FontSize="12" RenderTransformOrigin="0.464,-0.714">ENTREZ la taille du vecteur</TextBlock>
+            <TextBox Margin="202,22,140,268" Name="taille" FontSize="12" TextChanged="taille_TextChanged"></TextBox>
+            <Button Margin="337,22,0,268" Name="ok" HorizontalAlignment="Left" Width="45" Content="valider" Click="ok_Click" Background="#FF8DE4D8"></Button>
+            <Button Margin="175,195,150,87" Name="valider" Click="valider_Click" Background="#FF4DD147" >
                 <Label Width="55" Height="27">Valider</Label>
             </Button>
-            <WrapPanel Name="wp1" Margin="0,0,0,199" HorizontalAlignment="Left" Width="372" Height="37" VerticalAlignment="Bottom">
+            <WrapPanel Name="wp1" Margin="10,0,0,215" HorizontalAlignment="Left" Width="372" Height="37" VerticalAlignment="Bottom">
             </WrapPanel>
-            <TextBlock Name="txt2" Margin="10,165,10,113" FontSize="12"></TextBlock>
-            <WrapPanel x:Name="wp2" Margin="0,0,0,58" HorizontalAlignment="Left" Width="370" Height="50" VerticalAlignment="Bottom"/>
+            <TextBlock Name="txt2" Margin="10,230,10,53" FontSize="12"></TextBlock>
+            <WrapPanel x:Name="wp2" Margin="12,269,0,10" HorizontalAlignment="Left" Width="388"/>
+            <WrapPanel x:Name="wp3" Margin="12,0,0,127" HorizontalAlignment="Left" Width="372" Height="37" VerticalAlignment="Bottom"/>
+            <TextBlock Margin="0,111,222,183" x:Name="txt3" FontSize="12" RenderTransformOrigin="0.464,-0.714"><Run Text="ENTREZ la taille du vecteur"/></TextBlock>
+            <TextBox Margin="202,109,140,178" x:Name="taille2" FontSize="12" TextChanged="taille_TextChanged" RenderTransformOrigin="0.534,1.311" />
+            <Button Margin="337,111,0,179" x:Name="ok2" HorizontalAlignment="Left" Width="45" Content="valider" Click="ok2_Click" Background="#FF8DE4D8" />
+            <Button Margin="337,65,10,217" x:Name="Ajouter" Click="Ajouter_Click" Background="#FF4DD147" >
+                <Label Width="53" Height="27" Content="Ajouter" />
+            </Button>
         </Grid>
 
 
-        <Grid HorizontalAlignment="Left" Width="125" Margin="0,0,0,20" Name="GridMenu">
+        <Grid HorizontalAlignment="Left" Width="125" Margin="0,-12,0,20" Name="GridMenu">
             <Button Margin="0,45,0,214" Name="tri" Click="tri_click" Background="#FF99E2AD" >
                 <Label>Tri d'un vecteur</Label>
             </Button>
