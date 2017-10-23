@@ -11,17 +11,62 @@ namespace TPigl
     /// </summary>
     class vectorHelper
     {
-        // les méthodes sont à modifier  
+        /// <summary>
+        /// la méthode tri permet de trier le vecteur par ordre croissant
+        /// </summary>
+        /// <param name="tab"> le vecteur pour lequel on effectue le tri</param>
         public void tri(int[] tab)
         {
-
+            int i, j, x;
+            for (i = 0; i < tab.Length; i++)
+            {
+                j = i;
+                x = tab[i];
+                while ((j > 0) && (tab[j - 1] > x))
+                {
+                    tab[j] = tab[j - 1];
+                    j--;
+                }
+                tab[j] = x;
+            }
         }
+
+            /// <summary>
+            /// la méthode somme permet de sommer deux vecteurs
+            /// </summary>
+            /// <param name="tab1"> le 1èr vecteur</param>
+            /// /// <param name="tab1"> le 2ème vecteur</param>
+      
         public void somme(int[] tab1, int[] tab2)
         {
 
+                if(tab1.Length==tab2.Length) //la taille des deux vecteurs doit etre la meme
+                {
+                    for(int i=0;i<tab1.Length;i++)
+                    {
+                        tab1[i] = (tab1[i] +tab2[i]);
+                    }
+                }
+                
+
         }
+
+
+        /// <summary>
+        /// la méthode inverser permet d'inverser le vecteur 
+        /// </summary>
+        /// <param name="tab"> le vecteur sur lequel on applique la méthode </param>
         public void inverser(int[] tab)
         {
+            int sauv = 0;
+            int taille = tab.Length;
+            for (int i = 0; i < (taille / 2); i++)
+            {
+                sauv = tab[i];
+                tab[i] = tab[taille-i-1];
+                tab[taille-i-1] = sauv;
+
+            }
 
         }
 
