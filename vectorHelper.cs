@@ -9,18 +9,18 @@ namespace TPigl
     /// <summary>
     /// La classe vectorHelper qui permet 5 opérations
     /// </summary>
-    class vectorHelper
+    public static class vectorHelper
     {
         // les méthodes sont à modifier  
-        public void tri(int[] tab)
+        public static void tri(int[] tab)
         {
 
         }
-        public void somme(int[] tab1, int[] tab2)
+        public static void somme(int[] tab1, int[] tab2)
         {
 
         }
-        public void inverser(int[] tab)
+        public static void inverser(int[] tab)
         {
 
         }
@@ -30,7 +30,7 @@ namespace TPigl
         /// </summary>
         /// <param name="tab"> le vecteur pour lequel le min et le max simultanément</param>
         /// <returns>retourne un tableau à 2 cases la première c'est le min et la deuxième c'est le max</returns>
-        public int[] min_max(int[] tab)
+        public static int[] min_max(int[] tab)
         {
             int max,min; 
             int[] min_max = new int[2];
@@ -50,7 +50,7 @@ namespace TPigl
         /// La méthode applique_div applique à tous les éléments d'un vecteur la fonction reste de la division par 3
         /// </summary>
         /// <param name="tab"> le paramètre tab est un vecteur auquel on applique la fonction reste de la division par 3</param>
-        public void applique_div(int[] tab)
+        public static void applique_div(int[] tab)
         {
             for (int i = 0; i <tab.Length; i++)
             {

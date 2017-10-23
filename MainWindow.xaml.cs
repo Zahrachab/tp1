@@ -28,9 +28,8 @@ namespace TPigl
         /// vectorHelp est une instance de la classe vectorHelper
         /// action c'est une chaine qui contient l'opération qu'on veut appliquer (tri,...)
         /// </summary>
-        private int[] vec1;
+        private int[] vec1; /**<  */
         private int[] vec2;
-        vectorHelper vecHelp = new vectorHelper();
         private string action;
 
         public MainWindow()
@@ -169,19 +168,19 @@ namespace TPigl
             }
             if(action=="tri")
             {
-                vecHelp.tri(vec1);
+                vectorHelper.tri(vec1);
                 txt2.Text = "Le vecteur trié : ";
                 set_result(vec1);
             }
             else if(action=="inverse")
             {
-                vecHelp.inverser(vec1);
+                vectorHelper.inverser(vec1);
                 txt2.Text = "Le vecteur après inveresement de tous ses élèments : ";
                 set_result(vec1);
             }
             else if(action=="fonc")
             {
-                vecHelp.applique_div(vec1);
+                vectorHelper.applique_div(vec1);
                 txt2.Text = "Le vecteur après application de la fonction modulo 2 sur tous les élèments  : ";
                 set_result(vec1);
             }
@@ -189,7 +188,7 @@ namespace TPigl
             else if(action=="min_max")
             {
                 int[] a = new int[2];
-                a=vecHelp.min_max(vec1);
+                a= vectorHelper.min_max(vec1);
                 txt2.Text = "valeur min = " + a[0] +" et la valeur max = "+a[1] ;
             }
             valider.IsEnabled = false;
