@@ -9,13 +9,13 @@ namespace TPigl
     /// <summary>
     /// La classe vectorHelper qui permet 5 opérations
     /// </summary>
-    class vectorHelper
+    public static class vectorHelper
     {
         /// <summary>
         /// la méthode tri permet de trier le vecteur par ordre croissant
         /// </summary>
         /// <param name="tab"> le vecteur pour lequel on effectue le tri</param>
-        public void tri(int[] tab)
+        public static void tri(int[] tab)
         {
             int i, j, x;
             for (i = 0; i < tab.Length; i++)
@@ -37,7 +37,7 @@ namespace TPigl
             /// <param name="tab1"> le 1èr vecteur</param>
             /// /// <param name="tab1"> le 2ème vecteur</param>
       
-        public void somme(int[] tab1, int[] tab2)
+        public static void somme(int[] tab1, int[] tab2)
         {
 
                 if(tab1.Length==tab2.Length) //la taille des deux vecteurs doit etre la meme
@@ -56,7 +56,7 @@ namespace TPigl
         /// la méthode inverser permet d'inverser le vecteur 
         /// </summary>
         /// <param name="tab"> le vecteur sur lequel on applique la méthode </param>
-        public void inverser(int[] tab)
+        public static void inverser(int[] tab)
         {
             int sauv = 0;
             int taille = tab.Length;
@@ -75,7 +75,7 @@ namespace TPigl
         /// </summary>
         /// <param name="tab"> le vecteur pour lequel le min et le max simultanément</param>
         /// <returns>retourne un tableau à 2 cases la première c'est le min et la deuxième c'est le max</returns>
-        public int[] min_max(int[] tab)
+        public static int[] min_max(int[] tab)
         {
             int max,min; 
             int[] min_max = new int[2];
@@ -95,7 +95,7 @@ namespace TPigl
         /// La méthode applique_div applique à tous les éléments d'un vecteur la fonction reste de la division par 3
         /// </summary>
         /// <param name="tab"> le paramètre tab est un vecteur auquel on applique la fonction reste de la division par 3</param>
-        public void applique_div(int[] tab)
+        public static void applique_div(int[] tab)
         {
             for (int i = 0; i <tab.Length; i++)
             {
