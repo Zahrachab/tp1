@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TPigl</name>
+    </assembly>
+    <members>
+        <member name="T:TPigl.vectorHelper">
+            <summary>
+            La classe vectorHelper qui permet 5 opérations
+            </summary>
+        </member>
+        <member name="M:TPigl.vectorHelper.tri(System.Int32[])">
+            <summary>
+            la méthode tri permet de trier le vecteur par ordre croissant
+            </summary>
+            <param name="tab"> le vecteur pour lequel on effectue le tri</param>
+        </member>
+        <member name="M:TPigl.vectorHelper.somme(System.Int32[],System.Int32[])">
+            <summary>
+            la méthode somme permet de sommer deux vecteurs
+            </summary>
+            <param name="tab1"> le 1èr vecteur</param>
+            /// <param name="tab1"> le 2ème vecteur</param>
+        </member>
+        <member name="M:TPigl.vectorHelper.inverser(System.Int32[])">
+            <summary>
+            la méthode inverser permet d'inverser le vecteur 
+            </summary>
+            <param name="tab"> le vecteur sur lequel on applique la méthode </param>
+        </member>
+        <member name="M:TPigl.vectorHelper.min_max(System.Int32[])">
+            <summary>
+            la méthode min_max permet d'obtenir simulatnément le min et le max d'un vecteur
+            </summary>
+            <param name="tab"> le vecteur pour lequel le min et le max simultanément</param>
+            <returns>retourne un tableau à 2 cases la première c'est le min et la deuxième c'est le max</returns>
+        </member>
+        <member name="M:TPigl.vectorHelper.applique_div(System.Int32[])">
+            <summary>
+            La méthode applique_div applique à tous les éléments d'un vecteur la fonction reste de la division par 3
+            </summary>
+            <param name="tab"> le paramètre tab est un vecteur auquel on applique la fonction reste de la division par 3</param>
+        </member>
+        <member name="T:TPigl.App">
+            <summary>
+            Logique d'interaction pour App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:TPigl.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:TPigl.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:TPigl.MainWindow">
+            <summary>
+            Logique d'interaction pour MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:TPigl.MainWindow.vec1">
+            <summary>
+            vec1 c'est le vecteur utilisé dans toutes les opérations et contient le résultat à la fin
+            vec2 c'est le deuxième vecteur utilisé pour la somme
+            vectorHelp est une instance de la classe vectorHelper
+            action c'est une chaine qui contient l'opération qu'on veut appliquer (tri,...)
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.tri_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            la méthode qui permet l'affichage de la page après le clique sur le bouton trier
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.inverse_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            méthode executé quand on clique sur le bouton "inverser"
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.m_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            méthode executé quand on clique sur le bouton "min et max"
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.fonc_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            méthode executé quand on clique sur le bouton "appliquer la fonction modulo 2"
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.set_result(System.Int32[])">
+            <summary>
+            méthode qui permet de calculer le vecteur en sortie après une opétion (tri, inversion ...)
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.ok_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            la méthode qui déffinit l'action qui va s'éxecuter quand on clique sur le bouton ok
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.ok2_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            la méthode qui déffinit l'action qui va s'éxecuter quand on clique sur le bouton ok pour le deusième vecteur
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.valider_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            la méthode qui déffinit l'action qui va s'éxecuter quand on clique sur le bouton valider
+            </summary>
+        </member>
+        <member name="M:TPigl.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TPigl.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TPigl.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TPigl.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
