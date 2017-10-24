@@ -37,7 +37,6 @@ namespace TPigl
             InitializeComponent();
             grid1.Visibility = Visibility.Hidden;
             valider.Visibility = Visibility.Hidden;
-            // grid2.Visibility = Visibility.Hidden;
 
         }
 
@@ -64,6 +63,7 @@ namespace TPigl
             valider.Visibility = Visibility.Hidden;
             wp1.Children.Clear();
             wp2.Children.Clear();
+            wp3.Children.Clear();
             action = "tri";
             grid1.Visibility = Visibility.Visible;
 
@@ -105,6 +105,7 @@ namespace TPigl
             valider.Visibility = Visibility.Hidden;
             wp1.Children.Clear();
             wp2.Children.Clear();
+            wp3.Children.Clear();
             action = "inverse";
             grid1.Visibility = Visibility.Visible;
         }
@@ -126,6 +127,7 @@ namespace TPigl
             valider.Visibility = Visibility.Hidden;
             wp1.Children.Clear();
             wp2.Children.Clear();
+            wp3.Children.Clear();
             action = "min_max";
             grid1.Visibility = Visibility.Visible;
         }
@@ -142,6 +144,7 @@ namespace TPigl
             valider.Visibility = Visibility.Hidden;
             wp1.Children.Clear();
             wp2.Children.Clear();
+            wp3.Children.Clear();
             action = "fonc";
             grid1.Visibility = Visibility.Visible;
         }
@@ -206,6 +209,7 @@ namespace TPigl
             txt3.Visibility = Visibility.Visible;
             taille2.Visibility = Visibility.Visible;
             ok2.Visibility = Visibility.Visible;
+            ok2.IsEnabled = true;
             Ajouter.IsEnabled = false;
         }
         /// <summary>
@@ -231,6 +235,7 @@ namespace TPigl
                     }
                     ok2.IsEnabled = false;
                     valider.Visibility = Visibility.Visible;
+                    valider.IsEnabled = true;
                 }
             }
         }
@@ -291,15 +296,17 @@ namespace TPigl
                             vec2[i] = Int32.Parse(((TextBox)wp3.Children[i]).Text);
                         }
                     }
-                    if (Int32.Parse(taille.Text) != Int32.Parse(taille2.Text)) { txt2.Text = "Impossible d'effectuer la somme,les tailles sont différentes"; }
-                    else
+                    try
                     {
                         vectorHelper.somme(vec1, vec2);
                         txt2.Text = "Le vecteur resultant de la sommes des deux est : ";
                         set_result(vec1);
                     }
-                   
-
+                    catch(sommeException)
+                    {
+                        txt2.Text = "Impossible d'effectuer la somme,les tailles sont différentes";
+                    }
+                    
                     valider.IsEnabled = false;
                 }
             }

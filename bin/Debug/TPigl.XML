@@ -4,6 +4,32 @@
         <name>TPigl</name>
     </assembly>
     <members>
+        <member name="T:TPigl.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TPigl.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TPigl.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:TPigl.sommeException">
+            <summary>
+            sommeException est la classe de l'exception qui doit étre lancée quand deux vecteurs de longueur distincs sont les paramètres de somme
+            </summary>
+        </member>
+        <member name="M:TPigl.sommeException.#ctor">
+            <summary>
+            le constructeur de la classe sommeException
+            </summary>
+        </member>
         <member name="T:TPigl.vectorHelper">
             <summary>
             La classe vectorHelper qui permet 5 opérations
@@ -118,22 +144,6 @@
         <member name="M:TPigl.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent
-            </summary>
-        </member>
-        <member name="T:TPigl.Properties.Resources">
-            <summary>
-              A strongly-typed resource class, for looking up localized strings, etc.
-            </summary>
-        </member>
-        <member name="P:TPigl.Properties.Resources.ResourceManager">
-            <summary>
-              Returns the cached ResourceManager instance used by this class.
-            </summary>
-        </member>
-        <member name="P:TPigl.Properties.Resources.Culture">
-            <summary>
-              Overrides the current thread's CurrentUICulture property for all
-              resource lookups using this strongly typed resource class.
             </summary>
         </member>
     </members>

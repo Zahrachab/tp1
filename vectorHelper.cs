@@ -37,17 +37,21 @@ namespace TPigl
             /// <param name="tab1"> le 1èr vecteur</param>
             /// /// <param name="tab1"> le 2ème vecteur</param>
       
-        public static void somme(int[] tab1, int[] tab2)
+        public static void somme(int[] tab1, int[] tab2) 
         {
-
-                if(tab1.Length==tab2.Length) //la taille des deux vecteurs doit etre la meme
+             
+               
+                if (tab1.Length!= tab2.Length)
                 {
-                    for(int i=0;i<tab1.Length;i++)
-                    {
-                        tab1[i] = (tab1[i] +tab2[i]);
-                    }
+                    throw new sommeException();
                 }
                 
+                for (int i = 0; i < tab1.Length; i++)
+                {
+                    tab1[i] = (tab1[i] + tab2[i]);
+                }
+                
+               
 
         }
 
