@@ -1,0 +1,145 @@
+\hypertarget{class_t_pigl_1_1vector_helper}{}\section{T\+Pigl.\+vector\+Helper Class Reference}
+\label{class_t_pigl_1_1vector_helper}\index{T\+Pigl.\+vector\+Helper@{T\+Pigl.\+vector\+Helper}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_t_pigl_1_1vector_helper_a9447a1390b9a09ade0d252d8c21a901a}{tri} (int\mbox{[}$\,$\mbox{]} tab)
+\begin{DoxyCompactList}\small\item\em la méthode tri permet de trier le vecteur par ordre croissant \end{DoxyCompactList}\item 
+void \hyperlink{class_t_pigl_1_1vector_helper_aef84f14c086e1aae4f9446309ba0a1b8}{somme} (int\mbox{[}$\,$\mbox{]} tab1, int\mbox{[}$\,$\mbox{]} tab2)
+\begin{DoxyCompactList}\small\item\em la méthode somme permet de sommer deux vecteurs \end{DoxyCompactList}\item 
+void \hyperlink{class_t_pigl_1_1vector_helper_a90f5b534a7762117ce843ce79be2fced}{inverser} (int\mbox{[}$\,$\mbox{]} tab)
+\begin{DoxyCompactList}\small\item\em la méthode inverser permet d\textquotesingle{}inverser le vecteur \end{DoxyCompactList}\item 
+int \mbox{[}$\,$\mbox{]} \hyperlink{class_t_pigl_1_1vector_helper_a615ac23a44fc7c65f2637daba225bfef}{min\+\_\+max} (int\mbox{[}$\,$\mbox{]} tab)
+\begin{DoxyCompactList}\small\item\em la méthode min\+\_\+max permet d\textquotesingle{}obtenir simulatnément le min et le max d\textquotesingle{}un vecteur \end{DoxyCompactList}\item 
+void \hyperlink{class_t_pigl_1_1vector_helper_af3e69c4ec5721ea9236aad4ddb2995cb}{applique\+\_\+div} (int\mbox{[}$\,$\mbox{]} tab)
+\begin{DoxyCompactList}\small\item\em La méthode applique\+\_\+div applique à tous les éléments d\textquotesingle{}un vecteur la fonction reste de la division par 3 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t_pigl_1_1vector_helper_af3e69c4ec5721ea9236aad4ddb2995cb}\label{class_t_pigl_1_1vector_helper_af3e69c4ec5721ea9236aad4ddb2995cb}} 
+\index{T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}!applique\+\_\+div@{applique\+\_\+div}}
+\index{applique\+\_\+div@{applique\+\_\+div}!T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}}
+\subsubsection{\texorpdfstring{applique\+\_\+div()}{applique\_div()}}
+{\footnotesize\ttfamily void T\+Pigl.\+vector\+Helper.\+applique\+\_\+div (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{tab }\end{DoxyParamCaption})}
+
+
+
+La méthode applique\+\_\+div applique à tous les éléments d\textquotesingle{}un vecteur la fonction reste de la division par 3 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & le paramètre tab est un vecteur auquel on applique la fonction reste de la division par 3\\
+\hline
+\end{DoxyParams}
+
+
+un ememple d\textquotesingle{}application d\textquotesingle{}une division par 2 des elements d\textquotesingle{}un vecteur \char`\"{}\+Vec\char`\"{} 
+\begin{DoxyCode}
+vectorHelper vecHelp = \textcolor{keyword}{new} vectorHelper();
+  \textcolor{keywordtype}{int}[] Vec= \textcolor{keywordtype}{int}[]\{1,8,5,3\}; 
+  vectorHelp.applique\_div(Vec);
+\end{DoxyCode}
+ \mbox{\Hypertarget{class_t_pigl_1_1vector_helper_a90f5b534a7762117ce843ce79be2fced}\label{class_t_pigl_1_1vector_helper_a90f5b534a7762117ce843ce79be2fced}} 
+\index{T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}!inverser@{inverser}}
+\index{inverser@{inverser}!T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}}
+\subsubsection{\texorpdfstring{inverser()}{inverser()}}
+{\footnotesize\ttfamily void T\+Pigl.\+vector\+Helper.\+inverser (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{tab }\end{DoxyParamCaption})}
+
+
+
+la méthode inverser permet d\textquotesingle{}inverser le vecteur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & le vecteur sur lequel on applique la méthode \\
+\hline
+\end{DoxyParams}
+
+
+un ememple d\textquotesingle{}inversion d\textquotesingle{}un vecteur \char`\"{}\+Vec\char`\"{} 
+\begin{DoxyCode}
+vectorHelper vecHelp = \textcolor{keyword}{new} vectorHelper();
+  \textcolor{keywordtype}{int}[] Vec= \textcolor{keywordtype}{int}[]\{1,8,5,3\}; 
+  vectorHelp.inverser(Vec1);
+\end{DoxyCode}
+ \mbox{\Hypertarget{class_t_pigl_1_1vector_helper_a615ac23a44fc7c65f2637daba225bfef}\label{class_t_pigl_1_1vector_helper_a615ac23a44fc7c65f2637daba225bfef}} 
+\index{T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}!min\+\_\+max@{min\+\_\+max}}
+\index{min\+\_\+max@{min\+\_\+max}!T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}}
+\subsubsection{\texorpdfstring{min\+\_\+max()}{min\_max()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} T\+Pigl.\+vector\+Helper.\+min\+\_\+max (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{tab }\end{DoxyParamCaption})}
+
+
+
+la méthode min\+\_\+max permet d\textquotesingle{}obtenir simulatnément le min et le max d\textquotesingle{}un vecteur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & le vecteur pour lequel le min et le max simultanément\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retourne un tableau à 2 cases la première c\textquotesingle{}est le min et la deuxième c\textquotesingle{}est le max
+\end{DoxyReturn}
+/// 
+
+un ememple qui fournit le min et le max d\textquotesingle{}un vecteur \char`\"{}\+Vec\char`\"{} 
+\begin{DoxyCode}
+vectorHelper vecHelp = \textcolor{keyword}{new} vectorHelper();
+\textcolor{keywordtype}{int}[] result=\textcolor{keyword}{new} \textcolor{keywordtype}{int}[2];
+  \textcolor{keywordtype}{int}[] Vec =\textcolor{keyword}{new} \textcolor{keywordtype}{int}[] \{1,8,5,3\};
+  result=vecHelp.min\_max(Vec);
+\end{DoxyCode}
+ \mbox{\Hypertarget{class_t_pigl_1_1vector_helper_aef84f14c086e1aae4f9446309ba0a1b8}\label{class_t_pigl_1_1vector_helper_aef84f14c086e1aae4f9446309ba0a1b8}} 
+\index{T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}!somme@{somme}}
+\index{somme@{somme}!T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}}
+\subsubsection{\texorpdfstring{somme()}{somme()}}
+{\footnotesize\ttfamily void T\+Pigl.\+vector\+Helper.\+somme (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{tab1,  }\item[{int \mbox{[}$\,$\mbox{]}}]{tab2 }\end{DoxyParamCaption})}
+
+
+
+la méthode somme permet de sommer deux vecteurs 
+
+Les deux vecteurs doivent etre de meme taille /remarks$>$ 
+\begin{DoxyParams}{Parameters}
+{\em tab1} & le 1èr vecteur\\
+\hline
+{\em tab1} & le 2ème vecteur\\
+\hline
+\end{DoxyParams}
+
+
+un ememple de somme de deux vecteurs \char`\"{}\+Vec1\char`\"{} et \char`\"{}\+Vec2\char`\"{} 
+\begin{DoxyCode}
+vectorHelper vecHelp = \textcolor{keyword}{new} vectorHelper();
+  \textcolor{keywordtype}{int}[] Vec1 = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[]\{1,8,5,3\};
+  \textcolor{keywordtype}{int}[] Vec2 =\textcolor{keyword}{new} \textcolor{keywordtype}{int}[]\{1,8,5,3\};
+  vectorHelp.somme(Vec1,Vec2);
+\end{DoxyCode}
+ \mbox{\Hypertarget{class_t_pigl_1_1vector_helper_a9447a1390b9a09ade0d252d8c21a901a}\label{class_t_pigl_1_1vector_helper_a9447a1390b9a09ade0d252d8c21a901a}} 
+\index{T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}!tri@{tri}}
+\index{tri@{tri}!T\+Pigl\+::vector\+Helper@{T\+Pigl\+::vector\+Helper}}
+\subsubsection{\texorpdfstring{tri()}{tri()}}
+{\footnotesize\ttfamily void T\+Pigl.\+vector\+Helper.\+tri (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{tab }\end{DoxyParamCaption})}
+
+
+
+la méthode tri permet de trier le vecteur par ordre croissant 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & le vecteur pour lequel on effectue le tri\\
+\hline
+\end{DoxyParams}
+
+
+un ememple de tri d\textquotesingle{}un vecteur 
+\begin{DoxyCode}
+vectorHelper vecHelp = \textcolor{keyword}{new} vectorHelper();
+\textcolor{keywordtype}{int}[] Vec = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[]\{1,8,5,3\};
+vectorHelp.tri(Vec);
+\end{DoxyCode}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/git/tp/\hyperlink{vector_helper_8cs}{vector\+Helper.\+cs}\end{DoxyCompactItemize}

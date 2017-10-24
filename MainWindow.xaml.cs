@@ -19,6 +19,9 @@ namespace TPigl
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
+
+    /// <include file='TPigl.XML' path='MyDocs/MyMembers[@name=" MainWindow"]/*' />
+
     public partial class MainWindow : Window
     {
 
@@ -242,6 +245,7 @@ namespace TPigl
         /// </summary>
         private void valider_Click(object sender, RoutedEventArgs e)
         {
+            /// <exception cref="Exception">Lancée lorsque l'utilisateur tente de rentrer des valeurs invalides dens le vecteur</exception>
             try
             {
                 // remplir vec à partir des entrées de l'utilisateur
