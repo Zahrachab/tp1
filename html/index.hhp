@@ -1,0 +1,48 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=tp
+
+[WINDOWS]
+main="tp","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_app_8xaml_8cs.html
+_main_window_8xaml_8cs.html
+_settings_8cs.html
+vector_helper_8cs.html
+namespace_t_pigl.html
+class_t_pigl_1_1_app.html
+class_t_pigl_1_1_main_window.html
+class_t_pigl_1_1_main_window-members.html
+class_t_pigl_1_1vector_helper.html
+class_t_pigl_1_1vector_helper-members.html
+namespace_t_pigl_1_1_properties.html
+index.html
+namespaces.html
+annotated.html
+classes.html
+hierarchy.html
+functions.html
+functions_func.html
+files.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+class_t_pigl_1_1_app.png
+class_t_pigl_1_1_main_window.png
