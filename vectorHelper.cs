@@ -10,8 +10,6 @@ namespace TPigl
     /// La classe vectorHelper qui permet 5 opérations
     /// </summary>
 
-
-    /// <include file='TPigl.XML' path='MyDocs/MyMembers[@name=" MainWindow"]/*' />
     public static class vectorHelper
     {
         /// <summary>
