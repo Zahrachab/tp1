@@ -12,7 +12,7 @@ namespace TPigl
 
 
     /// <include file='TPigl.XML' path='MyDocs/MyMembers[@name=" MainWindow"]/*' />
-    class vectorHelper
+    public static class vectorHelper
     {
         /// <summary>
         /// la méthode tri permet de trier le vecteur par ordre croissant
@@ -27,7 +27,7 @@ namespace TPigl
         /// </code> 
         /// </example>  
 
-        public void tri(int[] tab)
+        public static void tri(int[] tab)
         {
             int i, j, x;
             for (i = 0; i < tab.Length; i++)
@@ -92,7 +92,7 @@ namespace TPigl
         ///   vectorHelp.inverser(Vec1);
         /// </code> 
         /// </example> 
-        public void inverser(int[] tab)
+        public static void inverser(int[] tab)
         {
             int sauv = 0;
             int taille = tab.Length;
@@ -120,7 +120,7 @@ namespace TPigl
         ///   result=vecHelp.min_max(Vec);
         /// </code> 
         /// </example> 
-        public int[] min_max(int[] tab)
+        public static int[] min_max(int[] tab)
         {
             int max,min; 
             int[] min_max = new int[2];
@@ -148,7 +148,7 @@ namespace TPigl
         ///   vectorHelp.applique_div(Vec);
         /// </code> 
         /// </example> 
-        public void applique_div(int[] tab)
+        public static void applique_div(int[] tab)
         {
             for (int i = 0; i <tab.Length; i++)
             {
